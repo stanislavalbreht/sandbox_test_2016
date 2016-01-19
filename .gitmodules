@@ -1,0 +1,12 @@
+[submodule "testing/gmock"]
+	path = testing/gmock
+	url = https://chromium.googlesource.com/external/googlemock.git
+[submodule "testing/gtest"]
+	path = testing/gtest
+	url = https://chromium.googlesource.com/external/github.com/google/googletest.git
+[submodule "tools/gyp"]
+	path = tools/gyp
+	url = https://chromium.googlesource.com/external/gyp.git
+[submodule "third_party/icu"]
+	path = third_party/icu
+	url = https://chromium.googlesource.com/chromium/deps/icu.git
