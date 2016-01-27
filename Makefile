@@ -1,4 +1,7 @@
-all: projects compile
+all: ./testing/gmock/.git ./testing/gtest/.git ./third_party/icu/.git ./tools/gyp/.git projects compile
+
+./testing/gmock/.git ./testing/gtest/.git ./third_party/icu/.git ./tools/gyp/.git:
+	git submodule update --init
 
 ./allowed:
 	mkdir allowed
